@@ -1,6 +1,13 @@
 # Data-Scraping-Scripts
 API and non-API-based Data Collection 
 
+## Reddit API Scripts
+
+- **collect_hottest.py** : collects the 500 hottest posts in the subreddit specified. Saves the file as <yyyy><mm><dd>_<subreddit>.json. Saves one post per line. 
+         
+         python3 collect_hottest.py -o <output_file> <subreddit>
+         
+
 ## Beautiful Soup Scripts
 
 - **scrape_courses.py** : pulls courses off pages with URLs of the form: https://www.mcgill.ca/study/2020-2021/courses/search?page=X where X is a number. The courses are printed in CSV format to stdout with the following columns (header included): CourseID, Course Name, # of credits
