@@ -9,7 +9,7 @@ def getRedditData(subreddit):
 
     #request 100 posts 5 times
     for req in range(5):
-        data = requests.get("https://api.reddit.com"+subreddit+"/hot.json?limit=100&after="+after, headers={'User-Agent': 'mac:requests (by /u/helenastahl)'})
+        data = requests.get("https://api.reddit.com"+subreddit+"/hot.json?limit=100&after="+after, headers={'User-Agent': 'mac:requests (by /u/___)'})
         dataToJson = data.json()
         content.append(dataToJson)
         #update the after variable so we move to the following 100 posts instead of getting the same 100 posts when we loop again
