@@ -13,7 +13,7 @@ API and non-API-based Data Collection
 
          {“cache_dir”: “.data/wdw_cache”, “target_people”: [ “robert-downey-jr”, “justin-bieber” ] }
  
-    The script fetches all relationships for the target individuals. All pages visited are cached in the cache directory specified - if the script is run twice          with the same target people, it will use data exclusively from the cache the second time. The output format for the file is:
+    The script fetches all relationships for the target individuals. All pages visited are cached in the cache directory specified - if the script is run twice         with the same target people, it will use data exclusively from the cache the second time. The output format for the file is:
 
          { “robert-downey-jr”: [ “person-1”, “person-2”, “person-3” ], “justin-bieber”: [] }
 
