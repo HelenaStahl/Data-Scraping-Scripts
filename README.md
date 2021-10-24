@@ -7,10 +7,11 @@ API and non-API-based Data Collection
 
 - **collect_relationships.py** : collects the relationships for a set of celebrities from whosdatewho.com. Takes as input a JSON configuration file containing a single JSON dictionary with the following structure:
 
-   {“cache_dir”: “.data/wdw_cache”, “target_people”: [ “robert-downey-jr”, “justin-bieber” ] }
+         {“cache_dir”: “.data/wdw_cache”, “target_people”: [ “robert-downey-jr”, “justin-bieber” ] }
  
-  The script fetches all relationships for the target individuals. All pages visited are cached in the cache directory specified - if the script is run twice with the same target people, it will use data exclusively from the cache the second time. The output format for the file is:
-   { “robert-downey-jr”: [ “person-1”, “person-2”, “person-3” ], “justin-bieber”: [] }
+The script fetches all relationships for the target individuals. All pages visited are cached in the cache directory specified - if the script is run twice with the same target people, it will use data exclusively from the cache the second time. The output format for the file is:
+   
+         { “robert-downey-jr”: [ “person-1”, “person-2”, “person-3” ], “justin-bieber”: [] }
 
 
 
