@@ -3,7 +3,7 @@ API and non-API-based Data Collection
 
 ## Reddit API Script
 
-- **collect_hottest.py** : collects the 500 hottest posts in a specified subreddit. Writes one post per line to a JSON output file where the post is the dictionary under the "data" key. 
+- **collect_hottest.py** : collects the 500 "hottest" posts in a specified subreddit. Writes one post per line to a JSON output file where the post is the dictionary under the "data" key. 
                   
 ## Beautiful Soup Scripts
 
